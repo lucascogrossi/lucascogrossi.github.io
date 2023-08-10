@@ -1,0 +1,13 @@
+@font-face { font-family: Raleway; src: url('/mp4set/Raleway-Regular.otf'); }
+@font-face { font-family: Optima0; src: url('/OPTIMA.TTF'); } 
+
+body {
+  font-family: Optima0, Raleway, Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 'Microsoft YaHei', sans-serif;
+  font-size: 18px;
+}
+code {
+  font-family: "Lucida Console", 'Andale Mono', 'STKaiti', 'KaiTi', 'SimKai', monospace;
+}
+pre code {
+  font-family: Consolas, "Lucida Console", Monaco, 'STKaiti', 'KaiTi', 'SimKai', monospace;
+}
