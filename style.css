@@ -298,7 +298,7 @@ thead, tfoot, tr:nth-child(even) {
       text-align: center;
       margin-left: 10px;
       margin-right: 10px;
-      border-bottom: 3px solid black;
+      border-bottom: 3px solid white;
   }
 
   .main {
@@ -443,4 +443,3 @@ thead, tfoot, tr:nth-child(even) {
   pre, code {
       font-size: 12px;
   }
-
