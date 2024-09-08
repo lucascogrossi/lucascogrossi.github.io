@@ -27,12 +27,24 @@
         a:hover {
             color: #0ff;
         }
+        .image-container {
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 300px; /* Adjust this value to make the image smaller */
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
     <h1>404 Not Found</h1>
     <p>This address is not part of the language accepted by this Turing machine. Thank Alan Turing and try another input.</p>
-    <p>You can always <a href="/">return to the home page</a> and try a different path.</p>
+    
+    <div class="image-container">
+        <img src="/images/alanturing.jpg" alt="Alan Turing">
+    </div>
+    
     <footer>
         <hr>
         <div class="copyright"><sub> <a href="/">Lucas Cogrossi</a> | <a href="https://github.com/lucascogrossi">Github</a> | <a href="https://www.linkedin.com/in/lucascogrossi/">LinkedIn</a> | <a href="http://lattes.cnpq.br/9614608456035791">Lattes (Portuguese)</a> </sub></div>
